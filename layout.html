@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Layout</title>
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #dddddd;
+            max-width: 650px;
+            height: 440px;
+            margin: 50px auto;
+            border: 3px solid black;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        p {
+            text-transform: uppercase;
+            font-size: 24px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .container header {
+            background-color: rgb(255, 14, 255);
+            max-width: 100%;
+            height: 75px;
+            text-align: center;
+            line-height: 65px;
+        }
+
+        .container aside {
+    background-color: rgb(35, 177, 233);
+    width: 40%;
+    float: left;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;  
+    padding: 0 45px;
+}
+
+.container nav {
+    background-color: rgb(231, 17, 117);
+    float: left;
+    width: 40%;
+    height: 180px;
+    text-align: center;
+    line-height: 180px;
+ 
+}
+
+.container main {
+    background-color: rgb(255, 167, 52);
+    float: right;
+    width: 60%;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+
+.container footer {
+    background-color: rgb(128, 117, 117);
+    width: 100%;
+    height: 50px;
+    clear: both;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+    </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <p>Header</p>
+            </header>
+            <aside>
+                <p>
+                  Aside
+                </p>
+            </aside>
+            <main>
+                <p>Main</p>
+            </main>
+            <nav>
+                <p>Nav</p>
+            </nav>
+            <footer>
+                <p>Footer</p>
+            </footer>
+        </div>
+    </body>
